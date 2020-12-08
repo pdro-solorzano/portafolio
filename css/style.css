@@ -212,13 +212,47 @@ body {
 }
 
 /* Media Queries */
-@media screen and (max-width: 750px) {
-    * {
-        font-size: 7px;
+@media screen and (max-width: 770px) {
+    #trabajos .contenedor-trabajos {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
+    #trabajos .contenedor-trabajos .carta {
+        margin: auto;
+        width: 90%;
+    }
+    .titulo-trabajo {
+        font-size: 3rem;
+        font-weight: 600;
+    }
+    .descripcion-trabajo {
+        font-size: 2rem;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 600px) {
+    #acerca-de .quien-soy .descripcion p {
+        font-size: 1.2rem;
+    }
+    #contacto .redes-sociales {
+        width: 90%;
+    }  
 }
 @media screen and (max-width: 500px) {
     * {
-        font-size: 5px;
+        font-size: 8px;
+    }
+    .titulo-trabajo {
+        font-size: 2.2rem;
+        font-weight: 600;
+    }
+    .descripcion-trabajo {
+        font-size: 1.8rem;
+        font-weight: 500;
+        margin-bottom: 20px;
     }
 }
