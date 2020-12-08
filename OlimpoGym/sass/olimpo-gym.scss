@@ -1,0 +1,88 @@
+@import 'header', 'main', 'instalaciones', 'instructores', 'planes', 'promociones', 'contacto', 'footer';
+$colorFondo: #131315;
+$colorLetra: #fff;
+
+body {
+    background: $colorFondo;
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 90px;
+}
+html {
+    scroll-behavior: smooth;
+}
+@media screen and (max-width: 858px) {
+    body {
+        font-size: 7px;
+    }
+}
+@media screen and (max-width: 630px) {
+    .planes {
+        .contenedor {
+            .contenedor-planes {
+                flex-direction: column;
+                align-items: center;
+                .tarjeta-precio {
+                    margin-bottom: 30px;
+                    width: 70%;
+                    .precio {
+                        //visibility: visible;
+                        //transition: none;
+                        //opacity: 1;
+                        margin-bottom: 10px;
+                        h3 {
+                            padding: 20px;
+                        }
+                    }
+                }            
+            }
+        }
+    }
+    .contacto {
+        .contenedor {
+            .mapa-datos {
+                flex-direction: column;
+                align-items: center;
+                .contenedor-mapa {
+                    width: 90%;
+                }
+                .contenedor-contacto {
+                    width: 90%;
+                    .olimpo {
+                        h4 {
+                            margin-top: 20px;
+                            text-align: center;
+                        }
+                    }
+                    .telefono {
+                        text-align: center;
+                    }
+                    .correo {
+                        text-align: center;
+                    }
+                    .domicilio {
+                        text-align: center;
+                    }
+                    .redes-sociales {
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 550px) {
+    .contacto {
+        .contenedor {
+            .mapa-datos {
+                .contenedor-mapa {
+                    .mapa {
+                        iframe {
+                            height: 300px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

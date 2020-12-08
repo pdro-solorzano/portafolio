@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/olimpo-gym.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <title>Olimpo Gym</title>
+</head>
+
+<body>
+    <header>
+        <!--
+        <div class="logo">
+            <img src="" alt="">
+        </div>
+        
+        <nav class="menu">
+            <a href="#instalaciones">INSTALACIONES</a>
+            <a href="#instructores">INSTRUCTORES</a>
+            <a href="#planes">PLANES</a>
+            <a href="#promociones">PROMOCIONES</a>
+            <a href="#contacto">CONTACTO</a>
+        </nav>
+        -->
+        <div class="menu-bootstrap">
+            <nav class="navbar navbar-expand-lg navbar-dark align-items-stretch fixed-top">
+                <a href="#" class="navbar-brand">
+                    <img src="img/logoGym.jpg" alt="logo-gym-olimpo" width="70" height="70">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                            <a href="#instalaciones" class="nav-link">INSTALACIONES</a>
+                        </li>
+                        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                            <a href="#instructores" class="nav-link">INSTRUCTORES</a>
+                        </li>
+                        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                            <a href="#planes" class="nav-link">PLANES</a>
+                        </li>
+                        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                            <a href="#promociones" class="nav-link">PROMOCIONES</a>
+                        </li>
+                        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                            <a href="#contacto" class="nav-link">CONTACTO</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section class="main">
+        <div class="contenedor-dinamico">
+            <div class="carousel slide" id="carrusel-principal" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-interval="2000">
+                        <img src="img/olimpoGym.jpg" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/olimpoGym.jpg" alt="" data-interval="2000">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/olimpoGym.jpg" alt="" data-interval="2000">
+                    </div>
+                </div>
+                <a href="#carrusel-principal" class="carousel-control-prev" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a href="#carrusel-principal" class="carousel-control-next" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="instalaciones" id="instalaciones">
+        <div class="contenedor">
+            <h2 class="titulos">INSTALACIONES</h2>
+            <div class="imagenes-instalaciones">
+                <div class="carousel slide" id="carrusel-instalaciones" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/gym1.jpg" alt="Olimpo Gym instalaciones">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/gym2.jpg" alt="Olimpo Gym instalaciones">
+                        </div>
+                    </div>
+                    <a href="#carrusel-instalaciones" class="carousel-control-prev" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+                    <a href="#carrusel-instalaciones" class="carousel-control-next" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+                </div>                
+            </div>
+            <div class="descripcion">
+                <p> En Olimpo Gym contamos con una amplia gama de aparatos de peso libre e integrado, 
+                    también tenemos área de cardio donde encontraras desde caminadoras, elípticas y bicicletas 
+                    con la mejor calidad y tecnología diseñados para mejorar tu rendimiento y asegurar tu seguridad en todo momento.
+                    Solo en Olimpo Gym te ayudaremos a desarrollar la mejor versión de tu cuerpo.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="instructores" id="instructores">
+        <div class="contenedor">
+            <h2 class="titulos">INSTRUCTORES</h2>
+            <div class="contenedor-tarjetas">
+                <div class="boton-izquierda">
+                    <a href="#carrusel-instructores" data-slide="prev">
+                        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+                <div class="carousel slide" id="carrusel-instructores" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-interval="2000">
+                            <div class="target">
+                                <img src="img/user.png"
+                                    alt="instructor Olimpo Gym">
+                                <h3>Nombre Instructor</h3>
+                                <p>Horario Atencion</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="target">
+                                <img src="img/user.png"
+                                    alt="instructor Olimpo Gym">
+                                <h3>Nombre 2</h3>
+                                <p>Horario Atencion</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="target">
+                                <img src="img/user.png"
+                                    alt="instructor Olimpo Gym">
+                                <h3>Nombre 3</h3>
+                                <p>Horario Atencion</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--
+                <div class="target">
+                    <img src="https://scontent-qro1-1.xx.fbcdn.net/v/t1.0-9/15350546_1199872346747273_3853969614439795798_n.jpg?_nc_cat=110&_nc_sid=09cbfe&_nc_ohc=E8XXU-DhBFYAX8gbvxE&_nc_ht=scontent-qro1-1.xx&oh=832435d6b158c7d4ce5715cca636f278&oe=5F572E3F"
+                        alt="">
+                    <h3>Nombre Instructor</h3>
+                    <p>Horario Atencion</p>
+                </div>
+                -->
+                <div class="boton-derecha">
+                    <a href="#carrusel-instructores" data-slide="next">
+                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="descripcion">
+                <p>
+                    En Olimpo Gym encontraras los mejores entrenadores capacitados 
+                    y con la mejor disposición de ayudarte a mejorar tus entrenamientos 
+                    para obtener tu mejor rendimiento en el gimnasio.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="planes" id="planes">
+        <div class="contenedor">
+            <h2 class="titulos">PLANES</h2>
+            <div class="contenedor-planes">
+                <div class="tarjeta-precio">
+                    <div class="modalidad">
+                        <a href="#collapse-precio" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapse-precio">
+                            <h3>VISITA</h3>
+                        </a>
+                    </div>
+                    <div class="precio collapse" id="collapse-precio">
+                        <h3>$30</h3>
+                    </div>
+                </div>
+                <div class="tarjeta-precio">
+                    <div class="modalidad">
+                        <a href="#collapse-precio2" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapse-precio2">
+                            <h3>MENSUALIDAD</h3>
+                        </a>
+                    </div>
+                    <div class="precio collapse" id="collapse-precio2">
+                        <h3>$370</h3>
+                    </div>
+                </div>
+                <div class="tarjeta-precio">
+                    <div class="modalidad">
+                        <a href="#collapse-precio3" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapse-precio3">
+                            <h3>ANUALIDAD</h3>
+                        </a>
+                    </div>
+                    <div class="precio collapse" id="collapse-precio3">
+                        <h3>$1200</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="promociones" id="promociones">
+        <div class="contenedor">
+            <h2 class="titulos">PROMOCIONES</h2>
+            <div class="imagenes-promociones">
+                <img src="img/promociones.png" alt="Olimpo Gym promociones">
+            </div>
+            <div class="descripcion">
+                <p>
+                    En Olimpo Gym contamos con diferentes promociones porque 
+                    además de ayudar a cuidar tu salud ayudamos a cuidar 
+                    tu bolsillo.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="contacto" id="contacto">
+        <div class="contenedor">
+            <h2 class="titulos">CONTACTO</h2>
+            <div class="mapa-datos">
+                <div class="contenedor-mapa">
+                    <div class="mapa">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d934.2038693508666!2d-103.18490531192703!3d20.513789199138262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842f4a0d46e897a7%3A0x53187c804d7af329!2sA%20Juanacatl%C3%A1n%2051%2C%20%C3%81lvarez%20del%20Castillo%2C%2045680%20El%20Salto%2C%20Jal.!5e0!3m2!1ses-419!2smx!4v1597774710289!5m2!1ses-419!2smx"
+                            width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""
+                            aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+                </div>
+                <div class="contenedor-contacto">
+                    <div class="olimpo">
+                        <h4>Olimpo Gym</h4>
+                    </div>
+                    <div class="telefono">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <h4>33-33-33-33-33</h4>
+                    </div>
+                    <div class="correo">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <h4>correo@email.com</h4>
+                    </div>
+                    <div class="domicilio">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        <h4>domicilio #321 El Salto Jal.</h4>
+                    </div>
+                    <div class="redes-sociales">
+                        <a href="https://www.facebook.com/Olimpo-Gym-110067970446178">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </a>
+                        <a href=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="contenedor">
+            <p>© 2020 Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+    <!--Bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

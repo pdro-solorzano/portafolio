@@ -1,0 +1,32 @@
+.promociones {
+    .contenedor {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        .titulos {
+            text-align: center;
+            display: inline-block;
+            font-size: 4em;
+            font-weight: 900;
+            color: #BA2214;
+            padding: 0 10px 5px 10px;
+            margin: 100px auto 50px auto;
+            border-bottom: 5px solid #BA2214;
+        }
+        .imagenes-promociones {
+            width: 85%;
+            margin: 0 auto;
+            img {
+                width: 100%;
+            }
+        }
+        .descripcion {
+            margin-top: 25px;
+            font-size: 2.7em;
+            font-weight: 400;
+            text-align: center;
+            color: #fff;
+        }
+    }
+}

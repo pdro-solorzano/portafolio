@@ -1,0 +1,66 @@
+.planes {
+    .contenedor {
+        width: 90%;
+        margin: 0px auto;
+        display: flex;
+        flex-direction: column;
+        .titulos {
+            text-align: center;
+            display: inline-block;
+            font-size: 4em;
+            font-weight: 900;
+            color: #BA2214;
+            padding: 0 10px 5px 10px;
+            margin: 100px auto 50px auto;
+            border-bottom: 5px solid #BA2214;
+        }
+        .contenedor-planes {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            justify-content: space-between;
+            .tarjeta-precio {
+                width: 32%;
+                .modalidad {
+                    background: #BA2214;
+                    width: 100%;
+                    a {
+                        text-decoration: none;
+                        color: #000;
+                    }
+                    h3 {
+                        font-size: 3em;
+                        font-weight: 700;
+                        color: #000;
+                        text-align: center;
+                        padding: 15px 20px;
+                        margin: 0px;
+                    }
+                }
+                .precio {
+                    background: #fff;
+                    width: 100%;
+                    border-radius: 0 0 10px 10px;
+                    /*visibility: hidden;
+                    transition: visibility 0.3s linear,opacity 0.3s linear;
+                    opacity: 0;*/
+                    h3 {
+                        font-size: 4.5em;
+                        font-weight: 500;
+                        color: #000;
+                        text-align: center;
+                        padding: 15px 20px;
+                        margin: 0px;
+                    }
+                }
+                /*&:hover {
+                    .precio {
+                        //display: block;
+                        /*visibility: visible;
+                        opacity: 1;*/
+                    //}
+                //}
+            }
+        }
+    }
+}
