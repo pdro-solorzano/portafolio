@@ -1,0 +1,224 @@
+* {
+    font-size: 10px;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background: url(../images/BrickWall-4535.jpg);
+    background-attachment: fixed;
+}
+.contenedor {
+    width: 80%;
+    margin: auto;
+}
+.oscuro {
+    background: #000;
+    color: #fff;
+}
+.blanco {
+    color: #fff;
+}
+.inicio {
+    display: flex;
+    flex-direction: row;
+
+}
+.inicio .patron {
+    background: url(../images/black_twill_@2X.png);
+    width: 35%;
+}
+.inicio .imagen {
+    width: 65%;
+}
+.inicio .imagen img {
+    width: 100%;
+}
+#acerca-de {
+    background: #EBEBEB;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+#acerca-de .imagen-pedro {
+    width: 40%;
+}
+#acerca-de .imagen-pedro img {
+    width: 60%;
+    display: block;
+    margin: 50px auto 30px auto;
+    box-shadow: -20px -20px black;
+}
+#acerca-de .quien-soy {
+    width: 60%;
+    align-self: center;
+    margin-top: 30px;
+}
+#acerca-de .quien-soy h5 {
+    font-weight: 600;
+    padding: 0 0;
+    margin: 0 0;
+    margin-bottom: -9px;
+    font-size: 1.2rem;
+}
+#acerca-de .quien-soy h2 {
+    display: inline-block;
+    font-weight: 700;
+    box-shadow: 0 -10px #00FFD4 inset;
+    font-size: 3.8rem;
+}
+#acerca-de .quien-soy .descripcion {
+    width: 100%;
+    margin: auto;
+    text-align: justify;
+    padding: 0px 30px 10px 0;
+}
+#acerca-de .quien-soy .descripcion p {
+    font-size: 1.5rem;
+}
+.titulo {
+    font-weight: 700;
+    box-shadow: 0px -10px #00FFD4 inset;
+    font-size: 3.8rem;
+}
+.titulo-trabajo {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.descripcion-trabajo {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+#trabajos {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#trabajos h2 {
+    display: inline-block;
+    margin: auto;
+    border: none;
+    margin-bottom: 30px;
+}
+#trabajos .contenedor-trabajos {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#trabajos .contenedor-trabajos .carta {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+#trabajos .contenedor-trabajos .carta .trabajo-imagen {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+#trabajos .contenedor-trabajos .carta .trabajo-imagen img {
+    width: 100%;
+    margin: auto;
+    border-radius: 10px;
+}
+#contacto {
+    padding: 15px 0;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#contacto h2 {
+    color: #fff;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 700;
+    font-size: 3.8rem;
+    margin-bottom: 20px;
+}
+#contacto .redes-sociales {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+}
+#contacto .redes-sociales a {
+    padding: 5px 15px;
+    border-radius: 10px;
+    font-size: 3rem;
+    color: #fff;
+}
+
+#facebook:hover {
+    background-color: #3b5998;
+}
+#linkedin:hover {
+    background-color: #0077b5;
+}
+#github:hover {
+    background-color: #6e5494;
+}
+#mail:hover {
+    background-color: #00a1f1;
+}
+#telefono:hover {
+    background-color: #6a737b;
+}
+
+/* Clases de Bootstrap */
+.navbar {
+    width: 80%;
+    padding: 0 !important;
+    justify-content: space-between !important;
+    position: fixed !important;
+}
+.navbar-brand {
+    width: 35%;
+    padding: 0 !important;
+    margin: 0 !important;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 600;
+}
+.navbar-brand:hover {
+    color: #fff;
+}
+#navbar {
+    background: #5B5B5B;
+    padding: 3px 0 !important;
+}
+#navbar .navbar-nav {
+    width: 100%;
+    justify-content: center;
+}
+.nav-link {
+    padding: 4px 0 !important;
+    margin: 0 20px;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+/* Media Queries */
+@media screen and (max-width: 750px) {
+    * {
+        font-size: 7px;
+    }
+}
+@media screen and (max-width: 500px) {
+    * {
+        font-size: 5px;
+    }
+}
